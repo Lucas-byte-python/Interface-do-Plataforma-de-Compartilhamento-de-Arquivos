@@ -155,3 +155,89 @@ body {
     box-shadow: none;
     border-color: #999;
 }
+
+.main .quick-access .item i {
+    font-size: 46px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.main .quick-access .item:nth-child(1) i,
+.main table tbody tr:nth-child(1) td.icon i {
+   color: #1976d2; 
+   background: #e6e4ec;
+}
+
+.main .quick-access .item:nth-child(2) i,
+.main table tbody tr:nth-child(2) td.icon i {
+    color: #1d92f1; 
+    background: #ddeffd;
+}
+
+.main .quick-access .item:nth-child(3) i,
+.main table tbody tr:nth-child(4) td.icon i {
+    color: #ffd12c; 
+    background: #fff8df;
+}
+
+.main .quick-access .item:nth-child(4) i,
+.main table tbody tr:nth-child(3) td.icon i {
+    color: #3bc963; 
+    background: #e2f7e8;
+}
+
+.main .quick-access .item h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #364670;
+    margin: 15px 0 8px;
+}
+
+.main .quick-access .item p {
+    color: #999;
+    font-size: 14px;
+}
+
+.main table {
+    background: #fff;
+    padding: 15px;
+    width: 100%;
+    border-radius: 14px;
+    border-spacing: 0 8px;
+    box-shadow: 0 2px 6px rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
+}
+
+.main table tbody tr {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main table tbody tr.selected,
+.main table tbody tr:hover {
+    border-radius: 14px;
+    background: #e8eaf6;
+}
+
+.main table tbody tr td {
+    padding: 16px;
+}
+
+.main table tbody tr td.icon i {
+    font-size: 20px;
+    background: #e6e4ec;
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.main table tbody tr.selected td.icon i,
+.main table tbody tr:hover td.icon i {
+    border-color: #999;
+}
+
+.main table tbody tr td.name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #364670;
+}
