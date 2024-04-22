@@ -369,3 +369,68 @@ body {
     color: #999;
     font-weight: 500;
 }
+
+.right-section .widgets .bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section .widgets .bottom button {
+    border: none;
+    background: #1976d2;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.right-section .widgets .bottom button:hover {
+    background: #0d47a1;
+}
+
+.right-section .widgets .bottom .premium {
+    background: #fff;
+    padding: 25px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
+    transition: all 0.3s ease;
+}
+
+.right-section .widgets .bottom .premium:hover {
+    box-shadow: none;
+    border-color: #999;
+}
+
+.right-section .widgets .bottom .premium .title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-section .widgets .bottom .premium .title h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right-section .widgets .bottom .premium .title i {
+    font-size: 30px;
+    padding: 10px;
+    background: #1976d2;
+    color: #fff;
+    border-radius: 14px;
+}
+
+.right-section .widgets .bottom .premium p {
+    color: #999;
+    font-size: 16px;
+    line-height: 1.4rem;
+}
