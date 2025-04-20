@@ -11,4 +11,4 @@
 
 ## This is a great example of a static prototype — perfect for practicing front-end skills and presenting the visual concept of a system.
 
-<img src="interface.png" width="auto">
+<img src="Interface.png" width="auto">
